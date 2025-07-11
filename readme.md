@@ -22,13 +22,13 @@ all chat history is resume‑able via a session ID.
 
 🗂 Project structure
 
-├── checkpointer.py      
-├── groq_client.py	
-├── langgraph_flow.py   
-├── main.py             
-├── streamlit_app.py    
-├── requirements.txt
-└── README.md
+├── checkpointer.py		 
+├── groq_client.py		
+├── langgraph_flow.py   	
+├── main.py             	
+├── streamlit_app.py    	
+├── requirements.txt		
+└── README.md	
 
 ⸻
 
