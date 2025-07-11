@@ -22,12 +22,12 @@ all chat history is resume‑able via a session ID.
 
 🗂 Project structure
 
-├── checkpointer.py		 
-├── groq_client.py		
-├── langgraph_flow.py   	
-├── main.py             	
-├── streamlit_app.py    	
-├── requirements.txt		
+├── checkpointer.py	 
+├── groq_client.py	
+├── langgraph_flow.py   
+├── main.py             
+├── streamlit_app.py    
+├── requirements.txt	
 └── README.md	
 
 ⸻
@@ -35,25 +35,25 @@ all chat history is resume‑able via a session ID.
 🚀 Quick start (local)
 
 ## 1. Clone and enter the repo
-git clone https://github.com/mishalalex/chatbot-with-persona.git
-cd chatbot-with-persona
+```git clone https://github.com/mishalalex/chatbot-with-persona.git```
+```cd chatbot-with-persona```
 
 ## 2. Python venv + deps
-python -m venv venv && source venv/bin/activate
-pip install -r requirements.txt  # to install all the requirements
+```python -m venv venv && source venv/bin/activate```
+```pip install -r requirements.txt  # to install all the requirements```
 
 ## 3. MongoDB (local or Atlas)
 ### Local quick‑start (docker):
-docker compose up -d mongodb        # provided in the docker‑compose.yaml file
+```docker compose up -d mongodb```        # provided in the docker‑compose.yaml file
 
 ## 4. .env
-cp .env.example .env  # then edit with your keys
+```cp .env.example .env```  # then edit with your keys
 
 ## 5a. CLI interface
-python main.py
+```python main.py```
 
 ## 5b. Streamlit UI
-streamlit run streamlit_app.py
+```streamlit run streamlit_app.py```
 
 ⸻
 
