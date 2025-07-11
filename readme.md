@@ -1,7 +1,7 @@
-Chat Bot With Persona 🤖🇮🇳
+# Chat Bot With Persona 🤖🇮🇳
 
-A full‑stack demo that pairs Groq’s Llama‑3 LLM with LangGraph 
-(checkpointed in MongoDB) and exposes two entry‑points:
+## A full‑stack demo that pairs Groq’s Llama‑3 LLM with LangGraph 
+###(checkpointed in MongoDB) and exposes two entry‑points:
 
 Interface	File	Purpose
 CLI	main.py	Terminal chat loop (persistent)
@@ -34,25 +34,25 @@ all chat history is resume‑able via a session ID.
 
 🚀 Quick start (local)
 
-# 1. Clone and enter the repo
+## 1. Clone and enter the repo
 git clone https://github.com/mishalalex/chatbot-with-persona.git
 cd chatbot-with-persona
 
-# 2. Python venv + deps
+## 2. Python venv + deps
 python -m venv venv && source venv/bin/activate
 pip install -r requirements.txt  # to install all the requirements
 
-# 3. MongoDB (local or Atlas)
-# Local quick‑start (docker):
+## 3. MongoDB (local or Atlas)
+### Local quick‑start (docker):
 docker compose up -d mongodb        # provided in the docker‑compose.yaml file
 
-# 4. .env
+## 4. .env
 cp .env.example .env  # then edit with your keys
 
-# 5a. CLI interface
+## 5a. CLI interface
 python main.py
 
-# 5b. Streamlit UI
+## 5b. Streamlit UI
 streamlit run streamlit_app.py
 
 ⸻
