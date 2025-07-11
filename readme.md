@@ -1,7 +1,7 @@
 # Chat Bot With Persona 🤖🇮🇳
 
 ## A full‑stack demo that pairs Groq’s Llama‑3 LLM with LangGraph 
-###(checkpointed in MongoDB) and exposes two entry‑points:
+### (checkpointed in MongoDB) and exposes two entry‑points:
 
 Interface	File	Purpose
 CLI	main.py	Terminal chat loop (persistent)
