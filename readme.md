@@ -13,10 +13,10 @@ all chat history is resume‑able via a session ID.
 ⸻
 
 🌟 Features
-	•	Groq API – low‑latency streaming from Llama‑3‑70B‑8192
-	•	LangGraph state machine with a single llm_node
-	•	MongoDBSaver checkpointing → resume any conversation by ID
-	•	Streamlit 1.32+ UI
+1. Groq API – low‑latency streaming from Llama‑3‑70B‑8192
+2. LangGraph state machine with a single llm_node
+3. MongoDBSaver checkpointing → resume any conversation by ID
+4. Streamlit 1.32+ UI
 
 ⸻
 
@@ -36,18 +36,20 @@ all chat history is resume‑able via a session ID.
 
 ## 1. Clone and enter the repo
 ```git clone https://github.com/mishalalex/chatbot-with-persona.git```
+
 ```cd chatbot-with-persona```
 
 ## 2. Python venv + deps
 ```python -m venv venv && source venv/bin/activate```
+
 ```pip install -r requirements.txt  # to install all the requirements```
 
 ## 3. MongoDB (local or Atlas)
 ### Local quick‑start (docker):
-```docker compose up -d mongodb```        # provided in the docker‑compose.yaml file
+```docker compose up -d mongodb``` provided in the docker‑compose.yaml file
 
 ## 4. .env
-```cp .env.example .env```  # then edit with your keys
+```cp .env.example .env``` then edit with your keys
 
 ## 5a. CLI interface
 ```python main.py```
