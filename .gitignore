@@ -1,0 +1,13 @@
+cat > .gitignore <<'EOF'
+# Python artefacts
+__pycache__/
+*.pyc
+
+# Virtual-envs
+venv/
+.env/
+
+# IDE stuff
+.vscode/
+.idea/
+EOF
