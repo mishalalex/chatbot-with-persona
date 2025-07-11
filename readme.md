@@ -22,18 +22,12 @@ all chat history is resume‑able via a session ID.
 
 🗂 Project structure
 
-├── checkpointer.py      # Returns MongoDBSaver
-
-├── groq_client.py       # Thin Groq wrapper (loads Groq API‑key)
-
-├── langgraph_flow.py    # StateGraph creation
-
-├── main.py              # CLI chat loop
-
-├── streamlit_app.py     # Web front‑end
-
+├── checkpointer.py      
+├── groq_client.py	
+├── langgraph_flow.py   
+├── main.py             
+├── streamlit_app.py    
 ├── requirements.txt
-
 └── README.md
 
 ⸻
